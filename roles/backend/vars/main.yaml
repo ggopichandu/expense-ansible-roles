@@ -1,6 +1,6 @@
 login_user: root
-login_host: db.gopichand.online
+login_host: 172.31.83.3
 login_password: ExpenseApp@1
-DB_HOST: db.gopichand.online
+DB_HOST: 172.31.83.3
 app_location: /app
 component: backend
