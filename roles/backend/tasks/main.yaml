@@ -67,10 +67,13 @@
     target: /app/schema/backend.sql
     state: import
     name: all
+  notify:
+  - daemon reload
+  
 
-- name: daemon reload
-  ansible.builtin.systemd_service:
-    daemon_reload: true
+# - name: daemon reload
+#   ansible.builtin.systemd_service:
+#     daemon_reload: true
 
 - name: start and enable backend service
   tags:
