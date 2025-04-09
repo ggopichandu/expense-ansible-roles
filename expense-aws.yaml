@@ -12,7 +12,7 @@
       tags:
         Name: "{{ item }}"
     loop:
-  - db
-  - backend
-  - frontend
-  register: ec2_instance_info
+    - db
+    - backend
+    - frontend
+    register: ec2_instance_info
