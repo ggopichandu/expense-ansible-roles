@@ -1,7 +1,7 @@
 - name: create ec2 and r53 records
   hosts: localhost
   vars:
-    zone: 
+    zone: gopichand.online
   tasks:
   amazon.aws.ec2_instance:
     instance_type: t2.micro
